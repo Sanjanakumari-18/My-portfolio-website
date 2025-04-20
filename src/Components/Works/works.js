@@ -48,7 +48,7 @@ const Works = () => {
             <div className="worksImg1">
               <img src={portfolio7} alt="Project Back" />
               <div className="backContent1">
-              <p>This project demonstrates my proficiency in front-end development, attention to UI/UX details, and ability to deliver a seamless user experience.</p>
+              <p>This project demonstrates my proficiency in front-end development, made using Canvas for animation Tailwind Css and JavaScript.</p>
               <a href="https://magma-fhfk.onrender.com/" target="_blank">
               <button className="workBtn">
               <i className="bx bx-link-external"></i> Info
@@ -68,7 +68,7 @@ const Works = () => {
             <div className="worksImg1">
               <img src={portfolio8} alt="Project Back" />
               <div className="backContent2">
-              <p>I have created a portfolio website to showcase my skills, experience, and projects. Through this platform, I aim to connect with potential employers and clients who value innovation, collaboration, and a healthy work environment.</p>
+              <p>I have designed a portfolio - prototype website to showcase my skills, experience, and projects. </p>
               <a href="https://github.com/Sanjanakumari-18/Portfolio-Prototype" target="_blank">
               <button className="workBtn">
               <i className="bx bx-link-external"></i> Info
@@ -88,7 +88,7 @@ const Works = () => {
             <div className="worksImg1">
               <img src={portfolio9} alt="Project Back" />
               <div className="backContent3">
-              <p>A modern and clean user interface for a food ordering application designed in Figma. This project includes intuitive navigation, and a simplified checkout process for an enhanced user experience.</p>
+              <p>A modern and clean user interface for a food ordering application designed in Figma. </p>
               <a href="https://github.com/Sanjanakumari-18/Figma-project/blob/main/README.md" target="_blank">
               <button className="workBtn">
               <i className="bx bx-link-external"></i> Info

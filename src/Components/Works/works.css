@@ -214,6 +214,7 @@
   
   .backContent1 .workBtn {
     margin: 0;
+    margin-bottom: 1.5rem;
     padding: 0.5rem 1.5rem;
     background: black;
     color: white;
@@ -296,7 +297,7 @@
   }
   
   .backContent3 .workBtn {
-    margin: 0;
+    margin: 1rem;
     padding: 0.5rem 1.5rem;
     background: black;
     color: white;
