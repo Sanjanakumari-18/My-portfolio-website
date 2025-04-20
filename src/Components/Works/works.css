@@ -1,0 +1,313 @@
+/* Container Section */
+#works {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.worksTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.worksDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 45rem;
+}
+
+/* Cards Container */
+.worksImgs {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    max-width: 60rem;
+}
+
+/* Flip Wrapper */
+.worksImgWrapper {
+    width: 20rem;
+    height: 20rem;
+    perspective: 1000px;
+    margin: 0.5rem;
+}
+
+/* Flip Inner */
+.worksImgInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s ease;
+    transform-style: preserve-3d;
+}
+
+/* Flip on hover */
+.worksImgWrapper:hover .worksImgInner {
+    transform: rotateY(180deg);
+}
+
+/* Front Side */
+.worksImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    overflow: hidden;
+    backface-visibility: hidden;
+}
+
+.worksImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Back Side */
+/* Back Side */
+.worksImg1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    overflow: hidden;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+
+  }
+.worksImg1>h1>p{
+    color: black;
+    font-weight: 400;
+    margin-top: 5rem;
+} 
+  
+  .worksImg1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+  }
+
+/* Button */
+.workBtn {
+    margin: 3rem 0;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    background: white;
+    font-size: 1rem;
+}
+
+/* Optional: Hover shadow */
+.worksImgWrapper:hover .worksImg {
+    box-shadow: 0 0 20px 4px rgba(0, 255, 255, 0.4);
+}
+
+/* Responsive */
+@media screen and (max-width: 585px) {
+    .worksImgWrapper {
+        width: 80%;
+        height: 80vw;
+    }
+
+    .worksImg img {
+        height: 100%;
+    }
+    .backContent p {
+        font-size: 0.5rem;
+        margin-bottom: 2rem ;
+        padding: 0 0.5rem;
+        line-height: 1;
+      }
+    
+      .backContent .workBtn {
+        padding: 0.4rem 1rem;
+        font-size: 0.8rem;
+        width: fit-content;
+        max-width: 90%;
+        text-align: center;
+      }
+
+}
+
+
+.btn {
+    margin: 5rem 0;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    background: white;
+    font-size: 1rem;
+}
+
+.backContent {
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+  }  
+
+  .backContent p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+  }
+  
+  .backContent .workBtn {
+    margin: 0;
+    padding: 0.5rem 1.5rem;
+    background: black;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .backContent .workBtn:hover {
+    background: rgb(26, 25, 25);
+  }
+  
+
+.backContent1 {
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  
+  .backContent1 p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+  }
+  
+  .backContent1 .workBtn {
+    margin: 0;
+    padding: 0.5rem 1.5rem;
+    background: black;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .backContent1 .workBtn:hover {
+    background: rgb(26, 25, 25);
+  }
+  
+  
+  .backContent2 {
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  
+  
+  .backContent2 p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+  }
+  
+  .backContent2 .workBtn {
+    margin: 0;
+    padding: 0.5rem 1.5rem;
+    background: rgb(255, 255, 255);
+    color: rgb(6, 0, 0);
+    font-weight: 600;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .backContent2 .workBtn:hover {
+    background: rgb(26, 25, 25);
+  }
+
+
+  .backContent3 {
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  
+  
+  .backContent3 p {
+    font-size: 0.9rem;
+    padding: 0 1rem;
+  }
+  
+  .backContent3 .workBtn {
+    margin: 0;
+    padding: 0.5rem 1.5rem;
+    background: black;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .backContent3 .workBtn:hover {
+    background: rgb(26, 25, 25);
+  }
+    
