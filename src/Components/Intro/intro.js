@@ -20,7 +20,7 @@ const Intro = () => {
           </span>
         </span>
         <p className="introPara">
-        I'm a Front-end developer with Experience in Website and Software <br /> development. Check out my and skills
+        I'm a Front-end developer with Experience in Website and Software <br /> development. Check out my projects and skills
         </p>
         <Link to="contact" smooth={true} duration={500}>
           <button className="btn">
